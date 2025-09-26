@@ -30,6 +30,7 @@ arguments
     options.nrun = 50
     options.nshift = 500
 end
+fr = options.fr;
     acc = []; shuf = []; nbout = [];
     shift = randi([15*fr,size(ca,1)-15*fr],1,options.nshift);
     parfor i = 1: options.nrun
